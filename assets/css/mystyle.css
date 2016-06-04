@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	letter-spacing: 2px;
+}
+
+body {
+	background-image: url("../images/backgroundart.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1, h3, p {
+	color: #ffffff;
+}
+
+.wrapper {
+	height: 770px;
+	width: 100%;
+}
+
+
+.quiz-title {
+	text-align: center;
+}
+
+.quiz-rules {
+	text-align: center;
+}
+
+.qimage {
+	display:block;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.individual-questions {
+	height: 50px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.counter-wrapper {
+	text-align: center;
+}
+
+.question-counter{
+	color: #ffffff;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 62px;
+    font-weight: bold;
+}
+
+.answer-counter{
+    width: 243px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#choices {
+	border: solid black 2px;
+	border-radius: 18px;
+	width: 650px;
+    margin: 0 auto;
+}
+
+.button-wrapper {
+	text-align: center;
+	margin-top: 10px;
+}
+
+label {
+	display: block;
+	line-height: 33px;
+    margin-left: 5px;
+}
+
+.quiz-button {
+display:block;
+margin: 20px auto 0 auto;
+}
+
+.new-game-button{
+display:block;
+margin: 20px auto 0 auto;	
+}
+
+.feedback-section {
+	border: solid black 2px;
+	border-radius: 18px;
+	width: 500px;
+	height: 90px;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.disclaimer {
+	font-size: 11px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+#initial-feedback {
+	color:#363837;
+	font-weight: bold;
+}
+
+#correct-answer-feedback {
+	color:#363837;
+	font-weight: bold;
+}
+
+.finished {
+	color:#363837;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: -10px; 
+	display: none;
+}

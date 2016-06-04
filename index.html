@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Magic Cards Symbols Quiz</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+    <script src="assets/app/quizz_app.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="quiz-title">Magic Cards Symbol Quiz</h1>
+        <h3 class="quiz-rules">Select the name of the expansion set that corresponds to the symbol shown below</h3>
+        <img class="qimage">
+        <div class="counter-wrapper">
+            <div class="individual-questions"></div>
+            <div class="question-counter">Question Number:<span class="badge2">1</span></div>
+            <div class="answer-counter">Questions Answered Correctly:<span class="badge">0</span></div>
+        </div>
+        <form id="choices"></form>
+        <button class="quiz-button">Submit Answer</button>
+        <button class="new-game-button" style="display: none;">Start New Game</button>
+        <div class="feedback-section">
+            <p id="initial-feedback"></p>
+            <p id="correct-answer-feedback"></p>
+            <p class="finished">Congratulations, you finished the quiz!</p>
+        </div>
+        <p class="disclaimer">Images provided by Wizards of the Coast</p>
+    </div>
+</body>
+
+</html>
